@@ -12,7 +12,7 @@ namespace TNDH.Interfaces.JoelPurra.Rot13
 		#region IInformation implementation
 		public string Transform (string incoming)
 		{
-			return incoming;
+			return incoming.Encode();
 		}
 		#endregion
 	}
