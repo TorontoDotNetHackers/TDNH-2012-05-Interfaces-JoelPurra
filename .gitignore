@@ -4,3 +4,4 @@ obj/
 *.userprefs
 *.user
 *.suo
+test-results/

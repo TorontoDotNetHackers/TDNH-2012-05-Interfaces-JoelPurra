@@ -12,7 +12,7 @@ namespace TNDH.Interfaces.JoelPurra.Rot13
 		#region IInformation implementation
 		public string Transform (string incoming)
 		{
-			throw new System.NotImplementedException ();
+			return incoming;
 		}
 		#endregion
 	}
